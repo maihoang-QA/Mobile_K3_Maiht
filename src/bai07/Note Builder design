@@ -1,0 +1,19 @@
+- Xử lý 1 Object mà nó có các loại attibute lúc có lúc không
+- Sử dụng tính bao đóng của oop (Encapsulation): để private
+tất cả các attribute, chỉ public tên class
+- In Main Class: Contructor, attribue = private
+- Xây dựng 1 inner class Builder (mail class có bn attribute thì sẽ có bấy nheo attribute)
+   - Có các public method (attribute)-> return về kiểu Builder
+- Có 1 hàm trong Builder Class: hàm build -> return về 1 House-> house: Inmutable
+
+BVN:
+- Các con Horse, Tiger, Dog, Goose, Eagle, Falcon...
+- Chạy trên mặt đất áp dụng đua
+- Animal: flyAble, speed
+- racing: Filter, speed
+- Builder design
+
+2.
+-Book: ISBN, name, author
+- wirte một chương trình cho phép người dùng nhập thông tin sách
+- người dùng sắp ĐỌC (lấy) sách từ ISBN
